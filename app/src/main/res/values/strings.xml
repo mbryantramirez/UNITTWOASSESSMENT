@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Unit_02_Assessment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_toast">Toast</string>
+    <string name="instruction_text">Enter Number between 1 to 100 below:</string>
+    <string name="edittext_hint">Enter Number</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="my_fullname">Clifford Charles</string>
+    <string name="cohort_declaration">Android 5.4 Cohort Fellow</string>
+    <string name="email_address">CliffordCharles@pursuit.org</string>
+    <string name ="you_lose">You Lose!</string>
+</resources>

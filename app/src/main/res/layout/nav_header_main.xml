@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/my_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--TODO: Change the color of the layout background to a color of your choosing.-->
+
+    <!--TODO: Add a ImageView, give it an id of "navigation_imageView", set its width and height to "wrap content", and set its source from a file in the drawable resource folder: an image of yourself.-->
+<ImageView
+    android:id="@+id/navigation_imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/clifford_charles"/>
+    <!--TODO: Add a TextView, give it an id of "title_textView", set its width to "match_parent", and set its height to "wrap_content". Set its text to your full name.-->
+<TextView
+    android:id="@+id/title_textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/my_fullname"/>
+    <!--TODO: Add a TextView, give it an id of "subtitle_textView", and set its width and height to "wrap_content". Set its text to "Android 5.4 Cohort Fellow".-->
+<TextView
+    android:id="@+id/subtitle_textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/cohort_declaration"/>
+    <!--TODO: Add a TextView, give it an id of "email_textView", set its width and height to "wrap_content", and set its text to your Pursuit Email Address. Make the email a clickable link.-->
+<TextView
+    android:id="@+id/email_textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/email_address"
+    android:autoLink="email"/>
+</LinearLayout>
