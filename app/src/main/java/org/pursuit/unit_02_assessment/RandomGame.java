@@ -14,6 +14,9 @@ public class RandomGame {
         return random.nextInt(100) + 1;
     }
 
+    /**
+     *  These methods should have been called in submit onClick
+     */
     public boolean checkGuess(int guess, int random) {
         return guess == random;
     }
